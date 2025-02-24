@@ -61,3 +61,10 @@ The project is divided into the following files and folders:
     * This executes the Dockerfile that seeds the elasticsearch instance with the data from the `seed_image/data/` folder.
     * This executes the Dockerfile that builds the test image.
     * This executes the Dockerfile that builds the API image.
+
+## Video recordings
+1. https://www.loom.com/share/47ce99da8350467c98ae5343fde6649c?sid=72359e11-ad27-4b8f-ae5e-2b9e9629550c
+2. https://www.loom.com/share/5418aaee28ff4268a4cb98c0bf76e345?sid=1f807ea9-2541-48f4-b7ef-6ac6447ed972
+3. https://www.loom.com/share/5d11bf44d1b44e42891f55567d020cab?sid=c05a3f7c-5852-4ed5-a21c-4f3652cd81e5
+4. https://www.loom.com/share/375232868a344c37ae79e203efc76417?sid=0d0c8e3d-1e50-424a-abfd-c6395bf8d9dd
+5. https://www.loom.com/share/b27f8b77ffd04d6682695818c41e5644?sid=094abda6-6404-4df5-bd64-cfa5c0c3d5be
