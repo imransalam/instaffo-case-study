@@ -1,0 +1,4 @@
+elasticsearch == 8.17.0
+python-dotenv == 1.0.1
+fastapi[standard]
+uvicorn == 0.34.0

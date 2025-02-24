@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-developer"
+version = "0.1.1"
+description = "Case study for Python Developer position. This project is a simple API that allows you to search for jobs and candidates in the Elasticsearch index."
+authors = ["Feng Lu <feng@instaffo.com>", "Imran us Salam Mian <imran.salam.24@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.9"
+elasticsearch = "^8.17.0"
+python-dotenv = "^1.0.1"
+fastapi = {extras = ["standard"]}
+uvicorn = "0.34.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,25 @@
+2025-02-24 15:55:37 ============================= test session starts ==============================
+2025-02-24 15:55:37 platform linux -- Python 3.9.16, pytest-8.3.4, pluggy-1.5.0
+2025-02-24 15:55:37 rootdir: /app
+2025-02-24 15:55:37 plugins: cov-6.0.0, anyio-4.8.0
+2025-02-24 15:55:37 collected 5 items
+2025-02-24 15:55:37 
+2025-02-24 15:55:37 tests/test_api.py .....                                                  [100%]
+2025-02-24 15:55:37 
+2025-02-24 15:55:37 =============================== warnings summary ===============================
+2025-02-24 15:55:37 tests/test_api.py::test_recommend_candidates_endpoint
+2025-02-24 15:55:37 tests/test_api.py::test_recommend_jobs_endpoint
+2025-02-24 15:55:37   /app/es_lib/elastic_search_client.py:232: DeprecationWarning: Received 'source' via a specific parameter in the presence of a 'body' parameter, which is deprecated and will be removed in a future version. Instead, use only 'body' or only specific parameters.
+2025-02-24 15:55:37     return self.__client.search(body=query, index=self.index, source=return_source)
+2025-02-24 15:55:37 
+2025-02-24 15:55:37 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+2025-02-24 15:55:37 
+2025-02-24 15:55:37 ---------- coverage: platform linux, python 3.9.16-final-0 -----------
+2025-02-24 15:55:37 Name                Stmts   Miss  Cover
+2025-02-24 15:55:37 ---------------------------------------
+2025-02-24 15:55:37 tests/__init__.py       0      0   100%
+2025-02-24 15:55:37 tests/test_api.py      49      8    84%
+2025-02-24 15:55:37 ---------------------------------------
+2025-02-24 15:55:37 TOTAL                  49      8    84%
+2025-02-24 15:55:37 
+2025-02-24 15:55:37 ======================== 5 passed, 2 warnings in 0.91s =========================
